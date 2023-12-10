@@ -1,9 +1,6 @@
 name: test
 run-name: ${{ github.actor }} is testing
-on:
-  push:
-      branches:
-          - 'luna/1-show-courses'
+on: push
 jobs:
     test:
         runs-on: ubuntu-lastest
