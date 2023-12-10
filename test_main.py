@@ -20,5 +20,4 @@ def test_get_courses(courseA):
             "_place":"PH 503",
             "_meeting_times":"TH 9:00"
         }]
-
     courses.pop()
